@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.container1{
+
+    background: linear-gradient(90deg, rgb(9, 11, 36) 0%, rgb(14, 19, 56) 50%, rgb(9, 11, 36) 100%);
+
+   
+}
+
+/* CONTACT //////////////// */
+
+.animation{
+
+    padding-top: 60px;
+    padding-left: 17px;
+
+}
+
+
+.animspan{
+
+    display: block;
+    width: 23px;
+    height: 2px;
+    background-color: rgba(243, 240, 240, 0.904);
+
+}
+
+.span1{
+
+    transform: translateY(25px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.span2{
+
+    transform: translateY(-25px);
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.span1.spananimation{
+
+    transform: translateY(25px) rotateZ(45deg);
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+
+}
+
+.span2.spananimation{
+
+    transform: translateY(-25px) rotateZ(-45deg);
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+
+} 
+
+.cross{
+
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#enveloppe{
+
+    color: rgba(243, 240, 240, 0.904);
+    font-size: 2.2em;
+    left: 17px;
+    top: 10px; 
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+
+}
+
+.enveloppesymbole{
+
+    margin-left: 4px;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+.contact{
+
+    color: white;
+    font-size: 1.5em;
+    line-height: 0.2em;
+    opacity: 0;
+    border: 1px solid rgba(235, 235, 235, 0.247);
+    padding: 7px;
+    font-family: 'Open Sans', sans-serif;
+    width: 230px;
+    transform: translateX(-300px);
+    top: 55px;
+    left: 17px;
+    border-radius: 30px;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+}
+
+#tel{
+
+    font-size: 1.35em;
+}
+
+
+/* TITLE ////////////// */
+
+.title{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    font-family: 'Lovers Quarrel', cursive;
+    color: rgba(255, 255, 255, 0.925);
+    box-shadow: -10px 5px 15px rgba(0, 0, 0, 0.904);
+    position: relative;
+  
+}
+
+.main-title{
+
+    display: flex;
+    justify-content: center;
+}
+
+.titleh2{
+
+    font-size: 3.7em;
+    font-weight: lighter;
+}
+
+.title p{
+
+    margin-left: 6px;
+    margin-right: 2px;
+    font-size: 0.5em;
+    padding-top: 4.7rem;
+}
+
+
+
+/* BOXES ////////////////// */
+
+
+.container2{
+
+    margin-left: 6.5%;
+    border-left: 1px solid rgb(28, 28, 131) ;
+    margin-right: 6.5%;
+    border-right: 1px solid rgb(28, 28, 131) ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+
+.description{
+
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 8rem;
+    font-size: 1.5em;
+    color: rgb(14, 19, 56);
+}
+
+
+.inline-1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: rgba(238, 238, 238, 0);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.175);
+    width: 300px;
+    transition: 0.1s ease-in-out !important;
+
+}
+
+.box:hover{
+
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
+}
+
+#lienbox{
+
+  color: rgba(255, 255, 255, 0.938);
+}
+
+.boximage{
+
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 230px;
+
+}
+
+.box{
+
+    margin: 20px;
+}
+
+
+.box_2{
+
+    margin-top: 120px;
+}
+
+.box_3{
+
+    margin-top: 240px;
+
+}
+
+
+.box a{
+    
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.boxbottom{
+
+    font-family: 'Open Sans', sans-serif;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    line-height: 2px;
+    background: linear-gradient(90deg, rgb(9, 11, 36) 0%, rgb(25, 32, 82) 50%, rgb(9, 11, 36) 100%);
+    padding: 10px;
+    padding-top: 10px;
+
+}
+
+.hrbox{
+
+    width: 200px;
+    margin-left: 0;
+}
+
+/* 2ème série de box ///////////////////// */
+
+.inline-2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* fondu description /////////////// */
+
+.descriptionhidden{
+
+    opacity: 0;
+    transform: translateX(100px);
+
+}
+
+.revealdescription{
+
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s ease;
+}
+
+
+
+/* fondu ////////////// */
+
+
+[class*="reveal-"]{
+
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.revealvisible{
+
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 0.8s  cubic-bezier(.62,.1,.08,1.16);
+}
+
+
+
+.reveal-2{
+
+    transition-delay: 0.1s;
+
+}
+
+.reveal-3{
+
+    transition-delay: 0.2s;
+}
+
+.reveal-4{
+
+    transition-delay: 0.4s;
+}
+
+
+
+/* FOOTER */
+
+
+.footer{
+
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(119, 116, 116);
+    padding: 8px;
+    
+
+    
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1160px){
+
+
+
+    /* TITLE ////////////// */
+
+    .title{
+        
+        height: 500px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .titleh2{
+
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .title p{
+
+        margin-left: 6px;
+        margin-right: 2px;
+        font-size: 0.5em;
+        padding-top: 3.5rem;
+    }
+
+
+    /* BOXES ////////////////// */
+
+    .container2{
+
+        margin-left: 0;
+        border-left: none ;
+        margin-right: 0;
+        border-right: none ;
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        
+    }
+
+    .description{
+
+        font-family: 'Julius Sans One', sans-serif;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5em;
+        color: rgb(14, 19, 56);
+    }
+
+
+    .inline-1{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+
+
+    }
+
+
+    .boximage{
+
+        width: 250px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 230px;
+
+    }
+
+    .box{
+
+        margin: 20px;
+    }
+
+
+    .box_2{
+
+        margin-top: 20px;
+    }
+
+    .box_3{
+
+        margin-top: 20px;
+
+    }
+
+    .boxbottom{
+
+        font-family: 'Open Sans', sans-serif;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        line-height: 2px;
+        background: linear-gradient(90deg, rgb(9, 11, 36) 0%, rgb(25, 32, 82) 50%, rgb(9, 11, 36) 100%);
+        padding: 10px;
+        padding-top: 10px;
+
+    }
+
+    .hrbox{
+
+        width: 200px;
+        margin-left: 0;
+    }
+
+    /* 2ème série de box ///////////////////// */
+
+    .inline-2{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+
+
+}
