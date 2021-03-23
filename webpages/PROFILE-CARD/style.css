@@ -36,7 +36,7 @@ body{
 
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
-    height: 140px;
+    height: 100%;
     width: 100%;
 }
 
@@ -163,9 +163,17 @@ body{
 
         height: 373px;
         width: 320px;
-       
 
     }
+
+
+    #profileimg{
+
+        transform: translateY(77px);
+
+    }
+
+
 
     .topimg{
 
@@ -178,6 +186,11 @@ body{
     
         transform: translateY(415px) translateX(-40px);
         
+    }
+
+    .bottompartinformations{
+
+        margin-top: 13px;
     }
 
 

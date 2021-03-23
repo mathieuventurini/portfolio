@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     background-color: rgb(238, 238, 238);
 }
 
@@ -7,83 +8,23 @@ body{
 .container1{
 
     background: linear-gradient(90deg, rgb(9, 11, 36) 0%, rgb(14, 19, 56) 50%, rgb(9, 11, 36) 100%);
-
+    box-shadow: -10px 5px 15px rgba(0, 0, 0, 0.904);
+    
    
 }
 
 /* CONTACT //////////////// */
 
-.animation{
+.menu{
 
-    padding-top: 60px;
-    padding-left: 17px;
-
-}
-
-
-.animspan{
-
-    display: block;
-    width: 23px;
-    height: 2px;
-    background-color: rgba(243, 240, 240, 0.904);
-
-}
-
-.span1{
-
-    transform: translateY(25px);
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-
-
-}
-
-.span2{
-
-    transform: translateY(-25px);
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-}
-
-.span1.spananimation{
-
-    transform: translateY(25px) rotateZ(45deg);
-    opacity: 1;
-    transition: 0.3s ease-in-out;
-
-}
-
-.span2.spananimation{
-
-    transform: translateY(-25px) rotateZ(-45deg);
-    opacity: 1;
-    transition: 0.3s ease-in-out;
-
-} 
-
-.cross{
-
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-}
-
-#enveloppe{
-
-    color: rgba(243, 240, 240, 0.904);
-    font-size: 2.2em;
-    left: 17px;
-    top: 10px; 
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    color: white;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
-
-}
-
-.enveloppesymbole{
-
-    margin-left: 4px;
-    transition: 0.3s ease-in-out;
+    top: 0;
+    left: 20px;
+    
 
 }
 
@@ -91,24 +32,32 @@ body{
 .contact{
 
     color: white;
-    font-size: 1.5em;
-    line-height: 0.2em;
+    font-size: 0.9em;
+    line-height: 0.9em;
     opacity: 0;
     border: 1px solid rgba(235, 235, 235, 0.247);
-    padding: 7px;
+    padding: 10px;
     font-family: 'Open Sans', sans-serif;
     width: 230px;
     transform: translateX(-300px);
-    top: 55px;
+    top: 70px;
     left: 17px;
     border-radius: 30px;
     position: absolute;
     transition: 0.3s ease-in-out;
 }
 
+.contact-visible{
+
+    opacity: 1;
+    transform: translateX(0);
+    transition: 0.3s ease-in-out;
+}
+
 #tel{
 
     font-size: 1.35em;
+    text-decoration: none;
 }
 
 
@@ -122,7 +71,6 @@ body{
     height: 700px;
     font-family: 'Lovers Quarrel', cursive;
     color: rgba(255, 255, 255, 0.925);
-    box-shadow: -10px 5px 15px rgba(0, 0, 0, 0.904);
     position: relative;
   
 }
@@ -139,13 +87,17 @@ body{
     font-weight: lighter;
 }
 
-.title p{
+.point{
 
-    margin-left: 6px;
+    margin-left: 3px;
     margin-right: 2px;
-    font-size: 0.5em;
-    padding-top: 4.7rem;
+    font-size: 4.2em;
+    padding-top: 2.6rem;
+    
+
 }
+
+
 
 
 
@@ -188,7 +140,7 @@ body{
     border-radius: 4px;
     background-color: rgba(238, 238, 238, 0);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.175);
-    width: 300px;
+    width: 230px;
     transition: 0.1s ease-in-out !important;
 
 }
@@ -206,10 +158,10 @@ body{
 
 .boximage{
 
-    width: 300px;
+    width: 230px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    height: 230px;
+    height: 250px;
 
 }
 
@@ -292,14 +244,14 @@ body{
 [class*="reveal-"]{
 
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(50px);
 }
 
 .revealvisible{
 
     opacity: 1;
     transform: translateY(0px);
-    transition: 0.8s  cubic-bezier(.62,.1,.08,1.16);
+    transition: 0.9s  cubic-bezier(.62,.1,.08,1.16);
 }
 
 
@@ -353,7 +305,7 @@ body{
         height: 500px;
         display: flex;
         justify-content: center;
-
+        color: white;
     }
 
     .titleh2{
@@ -364,12 +316,12 @@ body{
     
     }
 
-    .title p{
+    .point{
 
-        margin-left: 6px;
+        margin-left: 2px;
         margin-right: 2px;
-        font-size: 0.5em;
-        padding-top: 3.5rem;
+        font-size: 4em;
+        padding-top: 1.75rem;
     }
 
 
@@ -408,7 +360,7 @@ body{
 
         display: flex;
         flex-direction: column;
-        width: 250px;
+        
 
 
     }
@@ -416,10 +368,10 @@ body{
 
     .boximage{
 
-        width: 250px;
+    
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-        height: 230px;
+       
 
     }
 

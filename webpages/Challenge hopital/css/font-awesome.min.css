@@ -717,6 +717,7 @@ border-radius: 50%;
     width: 50px;
     height: 110px;
     margin-top: 30px;
+
 }
 
 .titlesection{
@@ -1196,7 +1197,7 @@ footer h2 img{
 /* MEDIAQUERIES  //////////// */
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
 
 
 
@@ -1539,7 +1540,7 @@ footer h2 img{
 
     .doctors img{
 
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
 
@@ -1571,6 +1572,9 @@ footer h2 img{
     .doctorall h4{
 
         text-align: center;
+        padding-top: 0px;
+        
+        
 
     }
 
@@ -1909,7 +1913,7 @@ footer h2 img{
 /* MEDIAQUERIES IPAD */
 
 
-@media screen and (min-width: 500px) and (max-width: 1240px){
+@media screen and (min-width: 800px) and (max-width: 1240px){
 
 
     /* BANNIERE ACCUEIL */
@@ -2001,6 +2005,25 @@ footer h2 img{
         flex-direction: column;
         width: 100%;
 
+    }
+
+    .doctorall{
+
+        transform: translateY(-2.3rem);
+    }
+
+    .doctors img{
+
+        transform: translateY(-2.5rem);
+
+
+    }
+
+    .doctorall h4{
+
+        padding-top: 0px;
+        text-align: center;
+    
     }
 
     /* BLOG */
