@@ -7,6 +7,11 @@ body{
 
 }
 
+body.dark{
+
+    background: linear-gradient(90deg, hsla(216, 64%, 41%, 0.603) 0%, hsla(246, 92%, 28%, 0.521) 100%);
+}
+
 button{
 
     cursor: pointer;
@@ -29,6 +34,11 @@ button:focus{
     background: linear-gradient(90deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 100%);
     border-bottom-left-radius: 80px 80px;
 
+}
+
+.section1.dark{
+
+    background: linear-gradient(90deg, hsla(216, 64%, 41%, 0.603) 0%, hsla(246, 92%, 28%, 0.521) 100%);
 }
 
 .main-menu-mobile{
@@ -151,6 +161,24 @@ button:focus{
 
 /* BTN Custom */
 
+
+.darkmode button{
+
+    border: none;
+    background: rgba(4, 4, 70, 0.26);
+    color: rgba(12, 27, 112, 0.849);
+    font-weight: 600;
+    font-size: 0.7em;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    right: 5px;
+    top: 43px;
+
+
+}
 .btn-menu{
 
     border: none;
@@ -594,6 +622,13 @@ button:focus{
         overflow: hidden;
         background: linear-gradient(180deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 100%);
         
+    }
+
+    .darkmode button{
+
+        right: 13px;
+        top: 90px;
+    
     }
 
     .main-menu{
@@ -1277,4 +1312,51 @@ button:focus{
 
     }
 
+}
+
+
+/* DARK MODE */
+
+
+body.dark{
+
+    background: linear-gradient(90deg, hsla(240, 29%, 33%, 0.603) 0%, hsla(241, 76%, 30%, 0.521) 100%);
+}
+
+
+.section1.dark{
+
+    background: linear-gradient(90deg, hsla(240, 29%, 33%, 0.603) 0%,  hsla(241, 76%, 30%, 0.521) 100%);
+}
+
+.slogan.dark{
+
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.background-section1.dark{
+
+    background-image: none;
+}
+
+.signup-start-btn.dark{
+
+    background: transparent;
+    border: 1px solid white;
+}
+
+.login-learn-btn.dark{
+
+    color: rgba(255, 255, 255, 0.89);
+}
+
+p.dark{
+
+    color: rgba(255, 255, 255, 0.712);
+}
+
+
+.main-menu-mobile{
+
+    background-color: rgb(211, 211, 212);
 }
