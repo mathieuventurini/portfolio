@@ -226,6 +226,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 
 }
 
@@ -420,23 +421,12 @@ body{
 
     /* 2ème série de box ///////////////////// */
 
-    .inline-2{
+    .inline-2, .inline-3{
 
         display: flex;
         flex-direction: column;
 
     }
-
-    .inline-3{
-
-        display: flex;
-        flex-direction: column;
- 
-    }
-
-
-
-
 
 
 
