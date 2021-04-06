@@ -10,6 +10,7 @@ $(function(){
         $('.background-section1').toggleClass('dark');
         $('.signup-start-btn').toggleClass('dark');
         $('.login-learn-btn').toggleClass('dark');
+        $('.main-menu-mobile').toggleClass('dark');
     })
 });
 
