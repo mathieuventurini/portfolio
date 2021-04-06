@@ -302,6 +302,11 @@ body{
     
 }
 
+#rock{
+
+    font-size: 23px;
+}
+
 
 /* RESPONSIVE */
 
@@ -427,6 +432,13 @@ body{
         flex-direction: column;
 
     }
+
+
+    #rock{
+
+        font-size: 20px;
+    }
+    
 
 
 
